@@ -354,7 +354,7 @@ footer {
 
 /* ------Responsive------- */
 
-@media screen and (max-width: 1864px) {
+@media screen and (max-width: 1964px) {
   .hamburger-menu {
     display: none;
   }
