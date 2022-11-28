@@ -256,6 +256,9 @@ a:hover {
     font-size: 1.5em;
     cursor: pointer;
   }
+  .btn:hover {
+    background-color: #9c9ca7;
+  }
 }
 
 .item-border {
@@ -355,17 +358,13 @@ footer {
 /* -------------------- Responsive ------------------- */
 
 @media screen and (max-width: 1449px) {
+  
   .hamburger_menu {
     display: none;
   }
-  
   .btn {
     margin-bottom: 15px;
   }
-
-  
-
-
 }
 
 @media screen and (max-width: 1023px) {
@@ -499,11 +498,11 @@ footer {
   }
 
   .headline {
-    font-size: 16px;
+    font-size: 22px;
   }
 
   .second-text {
-    font-size: 18px;
+   font-size: 22px;
     line-height: 40px;
   }
   
@@ -538,6 +537,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-content: space-between;
+    
   }
 
   .nav-bar {
