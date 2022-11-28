@@ -38,6 +38,18 @@ a:hover {
   font-weight: 800;
 }
 
+.main-img{
+  display: inline-block;
+  margin: 0 auto;
+  background: url(/img/photo-designer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width: 100%;
+  height: 100%;
+
+  
+}
+
 /* ------------------ Mano Burger menu ------------------------- */
 
  #burger_menu {
@@ -138,6 +150,7 @@ a:hover {
   grid-column: 1 / 10;
   grid-row-start: 1;
   grid-row-end: 3;
+  
 }
 .grid-item-2 {
   grid-column-start: 1;
@@ -362,9 +375,14 @@ footer {
   .hamburger_menu {
     display: none;
   }
-  .btn {
-    margin-bottom: 15px;
-  }
+  .btn-container {
+    margin-bottom: 3px;
+    margin-right: 10px;
+    .btn {
+      width: 50%;
+      font-size: 1em;
+    } 
+  } 
 }
 
 @media screen and (max-width: 1023px) {
@@ -394,12 +412,14 @@ footer {
   }
 
   .btn-container {
-    margin-bottom: 25px;
+    margin-bottom: 3px;
+    margin-right: 10px;
+    .btn {
+      width: 30%;
+      font-size: 1em;
+    } 
   }
 
-  .btn {
-    width: 110px;
-  }
 
   .hamburger_menu {
     display: none;
