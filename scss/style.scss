@@ -256,21 +256,21 @@ a:hover {
   display: flex;
   justify-content: end;
   align-content: space-around;
-  margin-right: 20px;
+  margin-right: 10%;
   margin-top: 10%;
   .btn {
     justify-content: center;
-    padding: 5px;
-    width: 30%;
-    border: none;
-    border-radius: 5px;
-    background-color: #7a8e9b;
-    color: #e7d2ba;
+    padding: 5px 15px;
+    width: 50%;
+    border: 2px solid #03685a;
+    border-radius: 1em;
+    background-color: transparent;
+    color: #bead13;
     font-size: 1.5em;
     cursor: pointer;
   }
   .btn:hover {
-    background-color: #9c9ca7;
+    background-color: #03685a;
   }
 }
 
@@ -412,15 +412,14 @@ footer {
   }
 
   .btn-container {
-    margin-bottom: 3px;
-    margin-right: 10px;
+    margin-right: 10%;
+    margin-top: 10%;
     .btn {
       width: 30%;
       font-size: 1em;
-    } 
+    }
+    
   }
-
-
   .hamburger_menu {
     display: none;
   }
@@ -541,6 +540,16 @@ footer {
     font-weight: 700;
   }
 
+  .btn-container {
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    .btn {
+      width: 30%;
+      font-size: 1em;
+    }
+    
+  }
   .second-text {
     font-size: 22px;
   }
