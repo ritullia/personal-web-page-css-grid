@@ -15,7 +15,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 5px 5px;
-  background-color: #e0e6e9c6;
+  background-color: #e0e6e95e;
   font-family: "Poppins", sans-serif;
 }
 
@@ -27,9 +27,9 @@
 }
 
 a {
-  font-size: 24px;
+  font-size: 18px;
   text-decoration: none;
-  color: #25524c;
+  color: #1b3c38;
   margin-right: 10px;
   padding: 24px 12px;
   transition: 0.3s;
@@ -43,16 +43,16 @@ a:hover {
 .main-img {
   display: inline-block;
   margin: 0 auto;
-  background: url(/img/photo-designer.jpg);
+  background: url(/img/design-create-programs.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100%;
+  height: 50%;
 }
 
 .img-anm {
   width: 100%;
-  transition: 2s;
+  transition: 3s;
 }
 
 .img-anm:hover {
@@ -112,7 +112,7 @@ a:hover {
   }
 }
 
-/* ------------------ Mano Burger menu ------------------------- */
+/* ------------------ Burger menu ------------------------- */
 
 #burger_menu {
   width: 80px;
@@ -187,7 +187,7 @@ a:hover {
   display: block;
   padding: 20px 40px;
   color: #f0e8e8;
-  font-size: 22px;
+  font-size: 12px;
   font-weight: 600;
   text-decoration: none;
   transition-duration: 0.25s;
@@ -201,8 +201,8 @@ a:hover {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(15, 1fr);
-  grid-template-rows: repeat(5, 2fr);
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: fit-content(80%);
   grid-column-gap: 8px;
   grid-row-gap: 8px;
   margin: 20px;
@@ -237,7 +237,7 @@ a:hover {
   grid-column-start: 10;
   grid-column-end: 13;
   grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-end: 1;
   border: 1px solid #c9cbcc;
 }
 
@@ -294,7 +294,7 @@ a:hover {
   grid-column-start: 13;
   grid-column-end: 16;
   grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-end: 2;
   border: 1px solid #c9cbcc;
 }
 
